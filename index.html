@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigonometry Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">TrigHub</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#intro" class="nav-link">What is Trigonometry</a></li>
+                <li><a href="#sohcahtoa" class="nav-link">SOHCAHTOA</a></li>
+                <li><a href="#functions" class="nav-link">Functions</a></li>
+                <li><a href="#formulas" class="nav-link">Formulas</a></li>
+                <li><a href="#applications" class="nav-link">Applications</a></li>
+                <li><a href="#quiz" class="nav-link">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="creator-credit">
+                <span class="credit-text">Made By A Subhash</span>
+            </div>
+            <h1 class="hero-title">Trigonometry Hub</h1>
+            <p class="hero-subtitle">Master the world of triangles, angles, and mathematical relationships</p>
+            <div class="scroll-indicator" id="scrollDown">
+                <div class="scroll-arrow">
+                    <span>↓</span>
+                </div>
+                <p class="scroll-text">Scroll to explore</p>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- What is Trigonometry Section -->
+    <section id="intro" class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What is Trigonometry?</h2>
+            </div>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Definition</h3>
+                    <p>Trigonometry is a branch of mathematics that studies relationships between side lengths and angles of triangles. The word "trigonometry" comes from Greek words meaning "triangle measurement."</p>
+                </div>
+                <div class="content-card">
+                    <h3>Origins</h3>
+                    <p>Developed by ancient civilizations including Babylonians, Egyptians, and Greeks, trigonometry has been essential for astronomy, navigation, and engineering for thousands of years.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Modern Applications</h3>
+                    <p>Today, trigonometry is crucial in fields like physics, engineering, computer graphics, music theory, and even medical imaging technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOHCAHTOA Section -->
+    <section id="sohcahtoa" class="content-section alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">SOHCAHTOA</h2>
+                <p class="section-subtitle">The fundamental mnemonic for trigonometric ratios</p>
+            </div>
+            <div class="soh-cah-toa-grid">
+                <div class="ratio-card soh-card">
+                    <div class="ratio-header">
+                        <h3>SOH</h3>
+                        <span class="ratio-name">Sine</span>
+                    </div>
+                    <div class="ratio-formula">
+                        <span class="formula-text">sin θ = Opposite / Hypotenuse</span>
+                    </div>
+                    <p class="ratio-description">Sine of an angle equals the length of the opposite side divided by the hypotenuse.</p>
+                </div>
+                <div class="ratio-card cah-card">
+                    <div class="ratio-header">
+                        <h3>CAH</h3>
+                        <span class="ratio-name">Cosine</span>
+                    </div>
+                    <div class="ratio-formula">
+                        <span class="formula-text">cos θ = Adjacent / Hypotenuse</span>
+                    </div>
+                    <p class="ratio-description">Cosine of an angle equals the length of the adjacent side divided by the hypotenuse.</p>
+                </div>
+                <div class="ratio-card toa-card">
+                    <div class="ratio-header">
+                        <h3>TOA</h3>
+                        <span class="ratio-name">Tangent</span>
+                    </div>
+                    <div class="ratio-formula">
+                        <span class="formula-text">tan θ = Opposite / Adjacent</span>
+                    </div>
+                    <p class="ratio-description">Tangent of an angle equals the length of the opposite side divided by the adjacent side.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Functions Section -->
+    <section id="functions" class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trigonometric Functions</h2>
+            </div>
+            <div class="functions-grid">
+                <div class="function-card">
+                    <h3>Primary Functions</h3>
+                    <ul class="function-list">
+                        <li><strong>Sine (sin)</strong> - Opposite/Hypotenuse</li>
+                        <li><strong>Cosine (cos)</strong> - Adjacent/Hypotenuse</li>
+                        <li><strong>Tangent (tan)</strong> - Opposite/Adjacent</li>
+                    </ul>
+                </div>
+                <div class="function-card">
+                    <h3>Reciprocal Functions</h3>
+                    <ul class="function-list">
+                        <li><strong>Cosecant (csc)</strong> - 1/sin = Hypotenuse/Opposite</li> 
+                        <li><strong>Secant (sec)</strong> - 1/cos = Hypotenuse/Adjacent</li>
+                        <li><strong>Cotangent (cot)</strong> - 1/tan = Adjacent/Opposite</li>
+                    </ul>
+                </div>
+                <div class="function-card">
+                    <h3>Common Angle Values</h3>
+                    <div class="angle-values">
+                        <p><strong>30°:</strong> sin = 1/2, cos = √3/2, tan = 1/√3</p>
+                        <p><strong>45°:</strong> sin = √2/2, cos = √2/2, tan = 1</p>
+                        <p><strong>60°:</strong> sin = √3/2, cos = 1/2, tan = √3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulas Section -->
+    <section id="formulas" class="content-section alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Key Formulas</h2>
+            </div>
+            <div class="formulas-grid">
+                <div class="formula-card">
+                    <h3>Pythagorean Identity</h3>
+                    <div class="formula-display">sin²θ + cos²θ = 1</div>
+                </div>
+                <div class="formula-card">
+                    <h3>Tangent Identity</h3>
+                    <div class="formula-display">tan θ = sin θ / cos θ</div>
+                </div>
+                <div class="formula-card">
+                    <h3>Double Angle Formulas</h3>
+                    <div class="formula-display">
+                        <p>sin(2θ) = 2sin θ cos θ</p>
+                        <p>cos(2θ) = cos²θ - sin²θ</p>
+                    </div>
+                </div>
+                <div class="formula-card">
+                    <h3>Sum Formulas</h3>
+                    <div class="formula-display">
+                        <p>sin(A + B) = sin A cos B + cos A sin B</p>
+                        <p>cos(A + B) = cos A cos B - sin A sin B</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section id="applications" class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Real-World Applications</h2>
+            </div>
+            <div class="applications-grid">
+                <div class="application-card">
+                    <h3>🏗️ Engineering & Architecture</h3>
+                    <p>Calculating structural loads, designing bridges, determining roof angles, and creating stable foundations.</p>
+                </div>
+                <div class="application-card">
+                    <h3>🚀 Physics & Astronomy</h3>
+                    <p>Analyzing wave motion, calculating planetary orbits, determining satellite trajectories, and studying light behavior.</p>
+                </div>
+                <div class="application-card">
+                    <h3>📊 Computer Graphics</h3>
+                    <p>Creating 3D models, implementing rotation algorithms, generating realistic animations, and rendering visual effects.</p>
+                </div>
+                <div class="application-card">
+                    <h3>🧭 Navigation & GPS</h3>
+                    <p>Calculating distances and bearings, determining location coordinates, and planning optimal travel routes.</p>
+                </div>
+                <div class="application-card">
+                    <h3>🎵 Music & Sound</h3>
+                    <p>Analyzing sound waves, creating digital audio effects, tuning instruments, and designing acoustic spaces.</p>
+                </div>
+                <div class="application-card">
+                    <h3>🏥 Medical Imaging</h3>
+                    <p>Processing CT scans, MRI reconstruction, ultrasound analysis, and creating detailed medical visualizations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="content-section quiz-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Test Your Knowledge</h2>
+                <p class="section-subtitle">Take our 15-question trigonometry quiz</p>
+            </div>
+            
+            <div id="quizStart" class="quiz-start">
+                <p class="quiz-intro">Ready to test your trigonometry skills? This quiz covers all the concepts we've explored.</p>
+                <button id="startQuizBtn" class="btn btn--primary btn--lg">Start Quiz</button>
+            </div>
+
+            <div id="quizContainer" class="quiz-container hidden">
+                <div class="quiz-progress">
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                    <span id="questionCounter" class="question-counter">1 / 15</span>
+                </div>
+
+                <div id="questionCard" class="question-card">
+                    <h3 id="questionText" class="question-text"></h3>
+                    <div id="optionsContainer" class="options-container">
+                        <!-- Options will be populated by JavaScript -->
+                    </div>
+                    <div id="feedback" class="feedback hidden">
+                        <p id="feedbackText" class="feedback-text"></p>
+                        <button id="nextBtn" class="btn btn--primary">Next Question</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="quizResults" class="quiz-results hidden">
+                <h3 class="results-title">Quiz Complete!</h3>
+                <div class="score-display">
+                    <span id="finalScore" class="final-score"></span>
+                    <span class="score-label">out of 15</span>
+                </div>
+                <p id="scoreMessage" class="score-message"></p>
+                <button id="restartBtn" class="btn btn--secondary">Take Quiz Again</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
